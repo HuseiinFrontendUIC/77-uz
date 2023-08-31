@@ -1,0 +1,35 @@
+@media screen and (max-width:650px) and (min-width:100px){
+ /* header_start */
+
+ .language__btn > .nav__call{
+  display: none;
+ }
+ .nav__logo{
+  width: 110px;
+  height: 70px;
+ }.exit__text{
+  display: none;
+ }
+
+ /* header_end */
+
+/* main_start */
+
+/* searh_start */
+#searchbar{
+ width: 335px;
+ height: 60px;
+}
+
+/* search_end */
+.search__box{
+ display: flex;
+ justify-content: center;
+ margin-right: auto;
+ margin-left: auto;
+ width: 500px;
+height: 60px;
+}
+/* main_end */
+
+}

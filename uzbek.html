@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>77.uz</title>
+
+<!-- google fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&display=swap" rel="stylesheet">
+
+<!-- flexbox grid -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flexboxgrid/6.3.1/flexboxgrid.min.css" type="text/css" >
+
+<!-- box icon css -->
+<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+<!-- link normalize -->
+<link rel="stylesheet" href="./css/normalize.css">
+
+<!-- responsive__link -->
+<link rel="stylesheet" href="./css/responesive.css">
+
+<!-- link css -->
+ <link rel="stylesheet" href="./css/index.css">
+</head>
+<body>
+
+ <!-- header_start -->
+
+<header id="header">
+<div class="container">
+ <nav class="header__nav nav">
+  
+  <div class="nav__language__btn language__btn" id = "languageSwitcher">
+    <a href="./index.html" class="language__btn language__btn--hover"> <img src="./img/russianFlag.png" class="flag__btn" alt=""> Русский </a>
+    <a href="#" class="language__btn language__btn--hover">  <img src="./img/flaguz.png" class="flag__btn" alt=""> Uzbek </a>
+     
+     <a class="nav__call" href="tel:+998885005000">
+      <img class="nav__call__img" src="./img/phone.svg" alt="call"> +998 88 500 50 00
+     </a>
+  </div>
+
+<a href="/"><img src="./img/logo.svg" alt="logo" class="nav__logo"></a>
+
+<a href="#" class="nav__exit exit nav__exit--hover"><p class="exit__text">Kirish</p><img class="exit__img" src="./img/exit.svg" alt="exit"></a>
+
+ </nav>
+</div>
+</header>
+
+<!-- header_end -->
+
+<!-- main_start -->
+
+<main id="main">
+ <!-- search_start -->
+
+ <section id="search">
+  
+ <div class="container">
+
+<div class="search__box">
+ <input id="searchbar" onkeyup="search_section()" type="text"
+ name="search" placeholder="Siz nimani izlayapsiz?">
+</div>
+
+</div>
+</section>
+
+<!-- search_end -->
+
+
+<section id="category">
+ <div class="container">
+  
+  <h2 class="category__title">Kategoriyalar</h2>
+  <p class="category__text">Sizga kerak bo'lgan barcha toifalarni xaridordan topishingiz mumkin</p>
+ 
+  
+  <div class="category__general__box" id="list">
+
+   </div>
+  </div>
+</section>
+
+<!-- category__section__end -->
+
+<!-- obyavleniya__section__start -->
+
+<section id="obyavleniya">
+  
+  <div class="container">
+    <h2 class="category__title obyavleniya__title">E'lonlar</h2>
+    <p class="category__text obyavleniya__text">Sizga kerak bo'lgan barcha toifalarni xaridordan topishingiz mumkin</p>
+  
+    <div class="obyavleniya__general__box">
+    </div>
+  
+    <button id="obyavleniya__btn__zagruzit">Ko'proq yuklang <img src="./img/bottomDropdown.svg" class="bottomDropdown" alt=""></button>
+  </div>
+  
+</div>
+
+</section>
+
+<!-- obyavleniya__section__end -->
+
+<!-- usloviya_start -->
+<section id="usloviya">
+  <div class="container">
+    <img src="./img/logo.svg" alt="logo" class="usloviya__logo__img">
+    <p class="usloviya__text">77.uz bozori O'zbekistondagi virtual platforma bo'lib, sotuvchilarni potentsial mijozlar bilan bog'lash orqali <br>sotib olish va sotishni osonlashtiradi.</p>
+ <ul class="usloviya__list">
+
+  <li class="usloviya__item"><img class="usloviya__item__img" src="./img/symbol.svg" alt="symbol">E'lonlar doskasi</li>
+  <li class="usloviya__item"><img class="usloviya__item__img" src="./img/symbol.svg" alt="symbol">Foydalanish shartlari</li>
+  <li class="usloviya__item"><img class="usloviya__item__img" src="./img/symbol.svg" alt="symbol"><a class="usloviya__link" href="tel:998885005000">+998 88 500 50 00</a></li>
+ 
+</ul>
+  </div>
+</section>
+<!-- usloviya_end -->
+
+</main>
+
+<!-- main_end -->
+
+<!-- footer__start -->
+<footer id="footer">
+<div class="container">
+<div class="footer__general__box">
+  <div class="footer__box">
+    <a class="footer__link__site" href="https://www.77.uz">© 77.uz</a>
+    <p class="footer__box__text"> 2023. Barcha huquqlar himoyalangan</p>
+  </div>
+
+  <div class="uic__logo">
+    <a href="https://uic.group/"><img src="./img/uicLogo.svg" class="uic__logo_img" alt=""></a>
+    <img src="./img/uicGroup.svg" class="uic__group_img" alt="">
+  </div>
+</div>
+</div>
+
+</footer>
+
+<!-- footer__end -->
+
+
+ 
+
+
+
+<script src="./categoryUZ.js"></script>
+<script src="./obyavleniyaUz.js"></script>
+ <script src="./js/index.js"></script>
+</body>
+</html>
